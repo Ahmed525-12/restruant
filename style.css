@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: border-box;
+}
+*::selection{
+    background-color: #2b8b7d;
+color: #ffffff;
+
+}
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- nav ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+.icon-nav{
+    font-family: 'Dancing Script', cursive;
+    transition: color .5s;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff !important;
+}
+.icon-nav:hover{
+    color: #1c534b !important;
+}
+.nav-link{
+    transition: color .5s , margin-left .5s ,margin-right .5s ease-in-out;
+    padding: 15px !important;
+    font-size: 18px;
+    position: relative;
+    color: #ffffff !important;
+    font-family: 'Dancing Script', cursive;
+}
+.nav-link:hover{
+    color: rgb(223, 197, 54) !important;
+    margin-left: 5px;
+}
+@media only screen and (max-width:991px){
+    .nav-link{
+        float: right;
+       
+    }
+    .nav-link:hover{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .h1-header{
+        font-size: 40px !important;
+    }
+   
+    
+}
+.bg-transparent.scrolled{
+    background-color: #2b8b7d !important;
+    transition: 0.5s ease-in-out;
+}
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- nav ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- header ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+.carousel-item{
+    position: relative;
+}
+.opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(1, 21, 87, 0.637) !important
+}
+.text-center1{
+    padding-top: 15pc;
+    position: relative;
+    text-align: center;
+
+}
+.img-carosuel{
+    background-image: url(img/img-3section.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.img-carosue2{
+    background-image: url(img/carousel2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.img-carosue3{
+    background-image: url(img/carousel1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.h3-header{
+    color: #024b41;
+    transition: color .5s;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    opacity: 0;
+    animation-name:text;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+.h3-header:hover{
+    color: beige;
+}
+
+.span-header{
+    color: #024b41;
+}
+.h1-header{
+    color: beige;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    position: relative;
+    opacity: 0;
+    animation-name:text;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+}
+.text-white{
+    position: relative;
+    opacity: 0;
+    animation-name:text;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+}
+
+.button-1-header{
+    background-color: #024b41 !important;
+    color: #fff !important;
+    font-family: 'Dancing Script', cursive;
+    color: #fff !important;
+    font-family: 'Dancing Script', cursive;
+    border-color: #024b41 !important;
+    padding: 10px 15px !important;
+    transition: background-color .5s,box-shadow .5s;
+    text-transform: uppercase;
+    box-shadow:2px 2px 10px 5px rgba(0,0,0,0.16), -2px -2px 10px 5px rgba(0,0,0,0.16);
+    position: relative;
+    opacity: 0;
+    animation-name:text;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+.button-1-header:hover{
+    background-color: transparent !important;
+    box-shadow: 0;
+}
+.button-2-header{
+    border-color: #024b41 !important;
+    color: #024b41 !important;
+    padding: 10px 15px !important;
+        
+        transition: background-color .5s, color .5s;
+        position: relative;
+    opacity: 0;
+    animation-name:text;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+.button-2-header:hover{
+    background-color: #024b41 !important;
+    color: #fff !important;
+}
+@keyframes text{
+    0%{
+        top: 50px;
+        
+        
+    }
+  
+    100%{
+        top: -50px;
+        opacity: 1;
+    }
+}
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- header ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section1 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+.bg-section1{
+    background-color: #e0e0e0;
+}
+.img-section1{
+    position: relative;
+}
+.h3-section1{
+    font-family: 'Dancing Script', cursive;  
+}
+.a-link-section1{
+    color: #024b41;
+    text-decoration: none;
+    transition: margin-left .5s , color .5s;
+    font-weight: bold;
+}
+.a-link-section1:hover{
+    color: rgb(218, 165, 32);
+    margin-left: 5px;
+}
+#lightbox-container
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.5) ;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999999999999999999999999;
+    padding-top: 50px;
+}
+#lightbox-item
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    background-color: #1c534b;
+    z-index: 9;
+}
+.display-close{
+    position: relative;
+    width: 100%;
+
+
+}
+
+@media only screen and (max-width:991px){
+    #lightbox-item{
+        width: 100% !important;
+        height: 85% !important;
+    }   
+}
+.icon-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999999999999;
+}
+.i-dom{
+    
+    color: red;
+    font-size: 30px;
+  cursor: pointer;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999;
+}
+.i-dom:hover{
+    color: rgb(167, 7, 7);
+}
+
+#lightbox-item i 
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+.img-item{
+    cursor: pointer;
+}
+.ul-section1{
+    margin-bottom: 11pc;
+    color: beige;
+}
+#recipes{
+    position: absolute;
+}
+.div-section1{
+    height: auto;
+    
+}
+@media only screen and (max-width:800px){
+    .div-section1{
+        height: 250pc !important;
+    } 
+}
+@media only screen and (max-width:991px){
+    .div-section1{
+        height: 372vh;
+        
+    }   
+    .icon-close{
+        right: 7px;
+        top: 4px;
+    }
+    .lists{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:320px){
+    .lists{
+        font-size: 11px;
+    }}
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section1 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section2 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+.section2{
+    margin-top: 67pc;
+}
+@media only screen and (max-width:991px){
+    .section2{
+        margin-top: 1pc;
+    }   
+}
+.section2-part1{
+    overflow: hidden;
+    transition: 1s;
+}
+.section2-part1:hover .img-section2 {
+  
+transform: scale(1.5,1.5);
+transition: 1s ease-in-out;
+}
+.img-section2{
+    overflow: hidden;
+}
+.h3-section2-part2{
+    transition: color .5s;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.h3-section2-part2:hover{
+    color: #1c534b;
+}
+.p-section2-part2{
+    font-size: 16px !important;
+    color: #777 !important;
+    line-height: 1.8 !important;
+    text-transform: capitalize;
+}
+.a-section2-part2{
+    font-size: 16px !important;
+    color: #024b41 !important;
+    text-transform: capitalize;
+    transition: color .5s ,margin-left .5s;
+    font-family: 'Dancing Script', cursive;
+}
+.a-section2-part2:hover{
+    color: rgb(218, 165, 32) !important;
+    margin-left: 5px;
+}
+
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section2 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+
+
+
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section3 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+.h2-section3{
+    transition: color .5s;
+    font-family: 'Dancing Script', cursive;  
+}
+.h2-section3:hover{
+    color: #1c534b;
+}
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section3 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section5 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+.section5{
+    background-image: url(img/carousel1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section5 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+
+
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section6 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+.section6{
+    background-color: #1c534b;
+}
+.h3-section6{
+    font-family: 'Dancing Script', cursive;   
+}
+
+
+
+
+
+/* <!-- -------------------------------------------------------------------------------------------------------- -->
+    
+<!-- ----------------------------------------------------- section6 ----------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------- --> */
+/* ---------------------------------------------------------------top button-------------------------------------- */
+.i_button_top{
+    display: inline-block;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+.a_button_top{
+    display: none;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    opacity: .5;
+}
+.a_button_top:hover{
+    background: rgb(0, 0, 0);
+    opacity: .5;
+}
+.a_button_top.scrollh{
+    display: block;
+    transition: display 0.5s linear;
+}
+
+/* ----------------------------------------------------------------end top button--------------------------------- */
+
+/* ---------------------------------------------------loading---------------------------------------- */
+
+#loading{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+body{
+    overflow: hidden;
+}
+
+@keyframes ldio-t9yevmipqob-r {
+  0%, 25%, 50%, 75%, 100% { animation-timing-function: cubic-bezier(0,1,0,1) }
+  0% { transform: scale(0.7000000000000001) rotate(180deg) }
+  25% { transform: scale(0.7000000000000001) rotate(270deg) }
+  50% { transform: scale(0.7000000000000001) rotate(360deg) }
+  75% { transform: scale(0.7000000000000001) rotate(450deg) }
+  100% { transform: scale(0.7000000000000001) rotate(540deg) }
+}
+@keyframes ldio-t9yevmipqob-z {
+  0%, 50%, 100% { animation-timing-function: cubic-bezier(1,0,0,1) }
+  0% { transform: scale(1) }
+  50% { transform: scale(1) }
+  100% { transform: scale(.5) }
+}
+@keyframes ldio-t9yevmipqob-p {
+  0%, 50%, 100% { animation-timing-function: cubic-bezier(1,0,0,1) }
+  0% { transform: scale(0) }
+  50% { transform: scale(1) }
+  100% { transform: scale(1) }
+}
+@keyframes ldio-t9yevmipqob-c {
+  0%, 25%, 50%, 75%, 100% { animation-timing-function: cubic-bezier(0,1,0,1) }
+  0% { background: #e15b64 }
+  25% { background: #f47e60 }
+  50% { background: #f8b26a }
+  75% { background: #abbd81 }
+  100% { background: #e15b64 }
+}
+.ldio-t9yevmipqob > div {
+  animation: ldio-t9yevmipqob-r 4s linear infinite;
+  transform-origin: 100px 100px;
+}
+.ldio-t9yevmipqob > div > div {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  animation: ldio-t9yevmipqob-z 1s linear infinite;
+  transform-origin: 200px 200px;
+}
+.ldio-t9yevmipqob > div > div div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #e15b64;
+  transform-origin: 50px 50px
+}
+.ldio-t9yevmipqob > div > div div:nth-child(1) {
+  left: 0px;
+  top: 0px;
+  animation: ldio-t9yevmipqob-p 1s linear infinite, ldio-t9yevmipqob-c 4s linear infinite;
+}
+.ldio-t9yevmipqob > div > div div:nth-child(2) {
+  left: 100px;
+  top: 0px;
+  animation: ldio-t9yevmipqob-p 1s linear infinite, ldio-t9yevmipqob-c 4s linear infinite;
+}
+.ldio-t9yevmipqob > div > div div:nth-child(3) {
+  left: 0px;
+  top: 100px;
+  animation: ldio-t9yevmipqob-p 1s linear infinite, ldio-t9yevmipqob-c 4s linear infinite;
+}
+.ldio-t9yevmipqob > div > div div:nth-child(4) {
+  left: 100px;
+  top: 100px;
+  transform: scale(1);
+  animation: ldio-t9yevmipqob-c 4s linear infinite
+}
+.loadingio-spinner-chunk-1q8y43aobbf {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-t9yevmipqob {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-t9yevmipqob div { box-sizing: content-box; }
+/* generated by https://loading.io/ */
+
+/* ---------------------------------------------------loading---------------------------------------- */
